@@ -15,6 +15,7 @@ if (CATKIN_ENABLE_TESTING)
   roslaunch_add_file_check(tests/roslaunch_test_200id7h.xml)
   roslaunch_add_file_check(tests/roslaunch_test_200id7l.xml)
   roslaunch_add_file_check(tests/roslaunch_test_200id7lc.xml)
+  roslaunch_add_file_check(tests/roslaunch_test_200id14l.xml)
 endif()
 
 install(DIRECTORY config launch meshes urdf

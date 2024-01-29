@@ -48,7 +48,7 @@
   </include>
 
   <include file="$(find fanuc_lrmate200id14l_moveit_config)/launch/moveit_rviz.launch">
-    <arg name="config" value="true"/>
+    <arg name="rviz_config" value="$(dirname)/moveit.rviz"/>
   </include>
 
   <!-- If database loading was enabled, start mongodb as well -->
